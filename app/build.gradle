@@ -24,7 +24,7 @@ android {
         python {
             // optional. if any dependency required for python add here
             pip {
-                //install "getmac"
+                install "numpy"
             }
 
             buildPython "/usr/bin/python" // add your system python path
